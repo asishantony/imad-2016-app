@@ -1,5 +1,5 @@
 console.log('Loaded!');
-var button= document.getElementById("counter");
+var button= document.getElementById("counter1");
 button.onclick = function(){
     var request= new XMLHttpRequest(); 
     request.onreadystatechange =function(){
