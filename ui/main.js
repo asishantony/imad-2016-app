@@ -5,6 +5,8 @@ element.innerHTML="new value";
 var img = document.getElementById("madi");
 img.onclick = function()
 {
+    var counter=0;
     img.style.marginLeft="100px";
-    console.log('clicked!');
+    counter=counter+1;
+    console.log(counter);
 };  
