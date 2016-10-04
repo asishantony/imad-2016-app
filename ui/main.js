@@ -26,6 +26,7 @@ submit.onclick= function(){
     var list="";
     for(var i=0;names.length;i++){
          list+= '<li>'+name[i]+'</li>';
+         alert("entered");
     }
    
     // capture the name and render it 
