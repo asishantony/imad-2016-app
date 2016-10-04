@@ -7,7 +7,7 @@ button.onclick = function(){
             if(request.status===200){
                 var counter = request.responseText;
                 counter=counter+1;
-                var spaan=document.getElementById("count");
+                var spaan=document.getElementById("cout");
                 spaan.innerHTML= counter.toString();
             }
         }
