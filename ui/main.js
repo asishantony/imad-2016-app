@@ -14,6 +14,6 @@ button.onclick = function(){
         }
     };
   //make request
-  request.open('GET',"http://asishantony.imad.hasura-app.io",true);
+  request.open('GET','http://asishantony.imad.hasura-app.io',true);
   request.send(null);
 };
