@@ -8,6 +8,11 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+app.get('/counter', function (req, res) {
+    var counter=0;
+  counter=counter+1;
+  res.send(counter.toString());
+});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
