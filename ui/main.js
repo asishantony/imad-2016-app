@@ -22,11 +22,12 @@ var name=nameInput.value;
 var submit=document.getElementById("submit_btn");
 submit.onclick= function(){
     //should make a request to the server and send the name 
-    var names={name1,name2,name3};
+    var names=['name1','name2','name3'];
     var list="";
     for(var i=0;names.length;i++)
     list+= '<li>'+name[i]+'</li>';
     // capture the name and render it 
+    var ul= document.getElementById("namelist");
+    ul.innerHTML=list;      
+    
 };
-var ul= document.getElementById("namelist");
-ul.innerHTML=list;
