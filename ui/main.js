@@ -8,7 +8,7 @@ button.onclick = function(){
                 var counter = request.responseText;
                 counter=counter+1;
                 alert(counter.toString());
-                var spaan=document.getElementById("cout");
+                var spaan= document.getElementById("cout");
                 spaan.innerHTML= counter.toString();
             }
         }
