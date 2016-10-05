@@ -24,9 +24,7 @@ submit.onclick= function(){
     //should make a request to the server and send the name 
     var names=['name1','name2','name3','name4'];
     var list="";
-      alert("entered");
-      console.log(name[0]);
-      console.log(name[i]);
+      
     for(var i=0;i<names.length;i++){
          list += '<li>'+names[i]+'</li>';
        console.log(names[i]);
