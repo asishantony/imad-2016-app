@@ -22,7 +22,7 @@ var name=nameInput.value;
 var submit=document.getElementById("submit_btn");
 submit.onclick= function(){
     //should make a request to the server and send the name 
-    var names=['Asish','HK','Sujinesh','Hari'];
+    var names=['Asish','HK','Sujinesh','Hari','moly'];
     var list="";
       
     for(var i=0;i<names.length;i++){
