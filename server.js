@@ -23,7 +23,7 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 app.get('/ui/150X200pxl.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', '150X2oopxl.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', '150X200pxl.jpg'));
 });
 var names=[];
 app.get('/submit-name/name', function (req, res) {
