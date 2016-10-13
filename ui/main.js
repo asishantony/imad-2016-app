@@ -1,4 +1,4 @@
-console.log('Loaded!');
+/*console.log('Loaded!');
 var button= document.getElementById("counter1");
 button.onclick = function(){
     var request= new XMLHttpRequest(); 
@@ -12,13 +12,13 @@ button.onclick = function(){
   //make request
   request.open('GET','http://asishantony.imad.hasura-app.io/counter',true);
   request.send(null);
-};
+};*/
 //submit name
 
 var submit=document.getElementById("submit_btn");
 submit.onclick= function(){
     var nameInput= document.getElementById("main");
-var name=nameInput.value;
+    var name=nameInput.value;
      var request= new XMLHttpRequest(); 
     request.onreadystatechange =function(){
         if(request.readyState === XMLHttpRequest.DONE){
@@ -41,6 +41,6 @@ var name=nameInput.value;
     
 };
 
- request.open('GET','http://asishantony.imad.hasura-app.io/submit-name?name='+names,true);
+ request.open('GET','http://asishantony.imad.hasura-app.io/submit-name?name='+ names,true);
   request.send(null);
 };
