@@ -1,5 +1,5 @@
-/*console.log('Loaded!');
-var button= document.getElementById("counter1");
+console.log('Loaded!');
+/*var button= document.getElementById("counter1");
 button.onclick = function(){
     var request= new XMLHttpRequest(); 
     request.onreadystatechange =function(){
@@ -28,6 +28,7 @@ submit.onclick= function(){
       
             for(var i=0;i<names.length;i++){
               list += '<li>'+names[i]+'</li>';
+              console.log('Loaded!');
              }
    
     // capture the name and render it 
