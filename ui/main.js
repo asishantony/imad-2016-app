@@ -22,7 +22,8 @@ submit.onclick= function(){
     request.onreadystatechange =function(){
         if(request.readyState === XMLHttpRequest.DONE){
             if(request.status===200){
-              var names=['Asish','HK','Sujinesh','Hari','moly'];
+              var names=request.responseText;
+              names= JSON.parse(names);
              var list="";
       
             for(var i=0;i<names.length;i++){
@@ -38,6 +39,7 @@ submit.onclick= function(){
   
     
 };
-};
+
  request.open('GET','http://asishantony.imad.hasura-app.io/submit--name?name='+name,true);
   request.send(null);
+};
