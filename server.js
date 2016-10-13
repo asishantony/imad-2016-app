@@ -26,9 +26,9 @@ app.get('/ui/150X200pxl.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '150X200pxl.jpg'));
 });
 var names=[];
-app.get('/submit-name/name', function (req, res) {
+app.get('/submit-name', function (req, res) {
   //get the name from request 
-  var name=req.params.name;
+  var name=req.querry.name;
   names.push('name');
   //JSON
   res.send(JSON.stringify(name));
