@@ -40,6 +40,6 @@ submit.onclick= function(){
     
 };
 
- request.open('GET','http://asishantony.imad.hasura-app.io/submit-name?names='+name,true);
+ request.open('GET','http://asishantony.imad.hasura-app.io/submit-name?name='+names,true);
   request.send(null);
 };
