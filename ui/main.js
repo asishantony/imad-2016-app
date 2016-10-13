@@ -17,14 +17,13 @@ button.onclick = function(){
 
 var submit=document.getElementById("submit_btn");
 submit.onclick= function(){
-    var nameInput= document.getElementById("main");
-    var name=nameInput.value;
+   
      var request= new XMLHttpRequest(); 
     request.onreadystatechange =function(){
         if(request.readyState === XMLHttpRequest.DONE){
             if(request.status===200){
               var names=request.responseText;
-              names= JSON.parse(names);
+              name s= JSON.parse(names);
              var list="";
       
             for(var i=0;i<names.length;i++){
@@ -40,7 +39,8 @@ submit.onclick= function(){
   
     
 };
-
- request.open('GET','http://asishantony.imad.hasura-app.io/submit-name?name='+ names,true);
+ var nameInput= document.getElementById("main");
+   var name=nameInput.value;
+ request.open('GET','http://asishantony.imad.hasura-app.io/submit-name?name='+ name,true);
   request.send(null);
 };
