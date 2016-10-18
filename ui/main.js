@@ -20,13 +20,11 @@ submit.onclick= function(){
    
      var request= new XMLHttpRequest(); 
     request.onreadystatechange =function(){
-        if(request.readyState === XMLHttpRequest.DONE){
-            if(request.status===200){
+        if(request.readyState == XMLHttpRequest.DONE){
+            if(request.status==200){
               
              var names1=request.responseText;
-              console.log(names1);
              names= JSON.parse(names1);
-             console.log(names);
              var list="";
       
             for(var i=0;i<names.length;i++){
