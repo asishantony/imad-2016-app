@@ -24,10 +24,11 @@ h1{
 
 .img-medium {
     height: 200px;
-     h3 {
+    
+}
+ h3 {
         color:black;
     }
-}
 .container{
         max-width: 800px;
         margin: 0 auto
