@@ -27,7 +27,8 @@ h1{
     
 }
  h3 {
-        color:black;
+        color:grey;
+        font-weight:bold;
     }
 .container{
         max-width: 800px;
