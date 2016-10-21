@@ -29,6 +29,7 @@ h1{
  h3 {
         color:grey;
         font-weight:bold;
+         text-transform: uppercase;
     }
 .container{
         max-width: 800px;
