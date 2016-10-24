@@ -25,7 +25,7 @@ submit.onclick= function(){
               
              var names1=request.responseText;
              var names=[];
-             names.push(JSON.parse(names1));
+             names[names.length]=JSON.parse(names1);
              var list="";
       
             for(var i=0;i<names.length;i++){
