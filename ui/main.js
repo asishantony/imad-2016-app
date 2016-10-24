@@ -16,6 +16,8 @@ button.onclick = function(){
 //submit name
 
 var submit=document.getElementById("submit_btn");
+    var names=[];
+
 submit.onclick= function(){
    
      var request= new XMLHttpRequest(); 
@@ -24,7 +26,7 @@ submit.onclick= function(){
             if(request.status==200){
               
              var names1=request.responseText;
-             var names=[];
+         
              names[names.length]=JSON.parse(names1);
              var list="";
       
