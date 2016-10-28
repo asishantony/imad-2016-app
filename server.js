@@ -26,8 +26,20 @@ app.get('/counter', function (req, res) {
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+  
+});
+//bootstrap CSS FILES
+app.get('/ui/css/bootstrap.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/css', 'bootstrap.css'));
+});
+app.get('/ui/css/bootstrap.min.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/css', 'bootstrap.min.css'));
 });
 
+//bootstrap JS FILES
+app.get('/ui/js/bootstrap.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/js', 'bootstrap.js'));
+});
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
