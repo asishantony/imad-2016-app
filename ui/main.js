@@ -20,7 +20,7 @@ var submit=document.getElementById("submit_btn");
     var names=[];
 
 submit.onclick= function(){
-    document.getElementById("main").placeholder = "comments..";
+    
    
      var request= new XMLHttpRequest(); 
     request.onreadystatechange =function(){
@@ -39,7 +39,8 @@ submit.onclick= function(){
    
     // capture the name and render it 
     var ul= document.getElementById("namelist");
-    ul.innerHTML=list;      
+    ul.innerHTML=list; 
+    document.getElementById("main").placeholder = "comments..";
             }
         }
     //should make a request to the server and send the name 
