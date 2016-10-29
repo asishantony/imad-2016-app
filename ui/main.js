@@ -20,7 +20,7 @@ var submit=document.getElementById("submit_btn");
     var names=[];
 
 submit.onclick= function(){
-    if(document.getElementById("main")===""){
+    if(document.getElementById("main").value===""){
         alert("please enter a comment");
     }
    
