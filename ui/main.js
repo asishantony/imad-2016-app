@@ -40,6 +40,7 @@ submit.onclick= function(){
     // capture the name and render it 
     var ul= document.getElementById("namelist");
     ul.innerHTML=list; 
+     document.getElementById("main").value = "";
     document.getElementById("main").placeholder = "comments..";
             }
         }
