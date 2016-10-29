@@ -1,5 +1,5 @@
 console.log('Loaded!');
-/*var button= document.getElementById("counter1");
+var button= document.getElementById("counter1");
 button.onclick = function(){
     var request= new XMLHttpRequest(); 
     request.onreadystatechange =function(){
@@ -11,9 +11,9 @@ button.onclick = function(){
         }
     };
   //make request
-  request.open('GET','http://asishantony.imad.hasura-app.io/counter',true);
+  request.open('GET','/counter',true);
   request.send(null);
-};*/
+};
 //submit name
 
 var submit=document.getElementById("submit_btn");
