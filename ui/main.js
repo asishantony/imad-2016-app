@@ -20,6 +20,7 @@ var submit=document.getElementById("submit_btn");
     var names=[];
 
 submit.onclick= function(){
+    document.getElementById("main").placeholder = "comments..";
    
      var request= new XMLHttpRequest(); 
     request.onreadystatechange =function(){
