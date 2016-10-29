@@ -59,7 +59,7 @@ h1{
     transition: width 0.4s ease-in-out;
 }
 
-input[type=text]:active {
+input[type=text]:onClick{
     width: 80%;
 }
 
