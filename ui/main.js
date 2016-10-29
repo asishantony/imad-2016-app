@@ -54,7 +54,7 @@ submit.onclick= function(){
     
 };
 
-};
+}
  var nameInput= document.getElementById("main");
    var name=nameInput.value;
  request.open('GET','/submit-name?name='+ name,true);
