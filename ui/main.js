@@ -21,7 +21,8 @@ var submit=document.getElementById("submit_btn");
 
 submit.onclick= function(){
     if(document.getElementById("main").value===""){
-        alert("please enter a comment");
+    var alert="asish";
+       document.getElementById("alert").innerHTML=alert;
     }
    else
    {
