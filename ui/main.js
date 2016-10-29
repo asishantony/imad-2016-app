@@ -21,8 +21,7 @@ var submit=document.getElementById("submit_btn");
 
 submit.onclick= function(){
     if(document.getElementById("main").value===""){
-    var alert="asish";
-       document.getElementById("alert").innerHTML=alert;
+      document.getElementById('alert').style.display = "block";
     }
    else
    {
