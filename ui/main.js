@@ -41,7 +41,7 @@ submit.onclick= function(){
     var ul= document.getElementById("namelist");
     ul.innerHTML=list; 
      document.getElementById("main").value = "";
-    document.getElementById("main").placeholder = "comments..";
+   // document.getElementById("main").placeholder = "comments..";
             }
         }
     //should make a request to the server and send the name 
