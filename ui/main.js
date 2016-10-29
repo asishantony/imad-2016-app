@@ -46,7 +46,7 @@ submit.onclick= function(){
     ul.innerHTML=list; 
 	 document.getElementById('alert').style.display = "none";
      document.getElementById("main").value = "";
-   // document.getElementById("main").placeholder = "comments..";
+ 
             }
         }
     //should make a request to the server and send the name 
