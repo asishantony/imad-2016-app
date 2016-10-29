@@ -45,7 +45,7 @@ h1{
         font-size: 20px;
     }
     input[type=text] {
-    width: 130px;
+    width: 330px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -59,9 +59,6 @@ h1{
     transition: width 0.4s ease-in-out;
 }
 
-input[type=text]:onClick{
-    width: 80%;
-}
 
    
     
