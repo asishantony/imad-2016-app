@@ -1,4 +1,4 @@
-//console.log('Loaded!');
+console.log('Loaded!');
 /*var button= document.getElementById("counter1");
 button.onclick = function(){
     var request= new XMLHttpRequest(); 
@@ -37,7 +37,7 @@ submit.onclick= function(){
              var list="";
       
             for(var i=0;i<names.length;i++){
-              list += '<li>'+names[i]+'</li>';
+              list += '<li class="list-group-item comment ">'+names[i]+'</li>';
               
              }
    
