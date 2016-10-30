@@ -25,7 +25,7 @@ app.get('/counter', function (req, res) {
 });
 
 app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+  res.sendFile(path.join(__dirname, '/ui', 'style.css'));
   
 });
 //bootstrap CSS FILES
@@ -33,7 +33,7 @@ app.get('/ui/css/bootstrap.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/css', 'bootstrap.css'));
 });
 app.get('/ui/css/bootstrap.min.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui/css', 'bootstrap.min.css'));
+  res.sendFile(path.join(__dirname, '/ui/css', 'bootstrap.min.css'));
 });
 
 //bootstrap JS FILES
@@ -46,7 +46,9 @@ app.get('/ui/main.js', function (req, res) {
 app.get('/ui/150X200pxl.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '150X200pxl.jpg'));
 });
-
+app.get('/aboutme', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'aboutme.html'));
+});
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
