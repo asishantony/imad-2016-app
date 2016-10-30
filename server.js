@@ -41,10 +41,10 @@ app.get('/ui/js/bootstrap.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/js', 'bootstrap.js'));
 });
 app.get('/ui/main.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+  res.sendFile(path.join(__dirname, '/ui', 'main.js'));
 });
 app.get('/ui/150X200pxl.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', '150X200pxl.jpg'));
+  res.sendFile(path.join(__dirname, '/ui', '150X200pxl.jpg'));
 });
 app.get('/aboutme', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'aboutme.html'));
