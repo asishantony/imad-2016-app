@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+	background:#F8F8F8;
+    margin-top: 75px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size:50px;
+     font-family: Montserrat, sans-serif;
+}
+.center {
+    text-align: center;
+   
+}
+
+.text-big {
+    font-size: 300%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.img-medium {
+      padding-top: 50px
+    
+}
+ h3 {
+        color:green;
+        font-weight:bold;
+         text-transform: uppercase;
+         font-family:serif;
+    }
+.container{
+        max-width: 900px;
+        margin: 0 auto;
+       margin-top:30px;
+        padding-top: 50;
+        padding-left: 20;
+        padding-right: 20;
+			background-color:#fde692
+    }
+    
+    .prof {
+        font-size: 20px;
+    }
+    input[type=text] {
+    width: 690px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.blub{
+	color:rgb(61, 158, 105);
+	 font-size: 36px;
+	   font-weight:bold;
+	font-family: 'IM Fell English', serif;
+	padding-top:15px;
+}
+.comment{
+	font-family: 'Bilbo', cursive;
+	font-size: 27px;
+	padding-top:15px;
+	margin-top:5px;
+	/*font-weight:bold;*/
+}
+
+/*font-family: 'IM Fell English', serif;
+font-family: 'Sonsie One', cursive;
+font-family: 'Bilbo', cursive;
+font-family: 'Romanesco', cursive;
+font-family: 'Lato', sans-serif;*/
+   
+    
+    
+    
