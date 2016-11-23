@@ -22,34 +22,32 @@
     <ul class="nav navbar-nav navbar-right">
       <li class="nav active"><a href="#">Home</a></li>
       <li class="nav"><a href="/aboutme">About Me!</a></li>
-      <li class="nav"><a href="#">CONTACT US</a></li> 
+      <li class="nav"><a href="/contact_us">Contact US</a></li> 
         <li class="nav"><a href="#">Be a WRITER </a></li> 
     </ul>
   </div>
 </nav>
        
 			<div class="container">
-			
+			<div class"col-md10 col-md-offset-4">
               <br/>
               <hr/>
 			  <div class="comments">
-			  <div class="col-md-6">
-              <input type="text" id="main" placeholder="Your Comments" default="">
+			  <div class=""col-md-6">
+              <input type="text" id="main" placeholder="Your Comments" default=""">
               <input type="submit" value="submit" id="submit_btn" class="btn">
-              <div id="alert" class="alert alert-danger fade in"  style="display:none;">
+              <div id="alert" class="alert alert-danger fade in" role="alert"  style="display:none;">
+			   <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				<span class="sr-only">Error:</span>
                   <strong>Warning!</strong>Enter a comment
                 </div> 
               </div>
-               <br/>
-              <hr/>
-              </div> 
-               <div>
-              <ul id="namelist" class="list-group">
+              <ul id='namelist'class="list-group">
                 
               </ul>
-              </div>
+              </div>  
            </div>
-
+    </div>
        
         <script type="text/javascript" src="/ui/main.js">
         </script>

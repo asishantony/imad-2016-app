@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+ 
+    <head>
+        <title>Contact US</title>
+      <link href="https://fonts.googleapis.com/css?family=Bilbo|IM+Fell+English:400i|Lato:300|Romanesco|Sonsie+One" rel="stylesheet">
+        
+           <link href="/ui/css/bootstrap.css" rel="stylesheet" />
+            <link href="/ui/css/bootstrap.min.css" rel="stylesheet" />
+          <link href="/ui/style.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+    </head>
+    <body>
+       
+      <nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand blub" href="/">BLURBss</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="nav "><a href="/">Home</a></li>
+      <li class="nav"><a href="/aboutme">About Me!</a></li>
+      <li class="nav acive"><a href="#">Contact US</a></li> 
+        <li class="nav"><a href="#">Be a WRITER </a></li> 
+    </ul>
+  </div>
+</nav>
+       
+			<div class="container">
+				<div class="blub">
+					<h2>CONTACT US</h2>
+				</div>
+				<div class="row">
+					<form class="form-horizontal">
+					
+						<div class="form-group">
+							<label for="nameInput" class="control-label col-md-2">Your Name</label>
+						<div class="col-md-10">
+							<input type="text" name="nameInput" id="contact_name" class="form-control" placeholder="E.g Your Name"/>
+							</div>
+						</div>
+								 <div id="alert_name" class="alert alert-danger fade in" role="alert"  style="display:none;">
+									<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+									<span class="sr-only">Error:</span>
+									<strong>Warning!</strong>Enter a name 
+								</div> 
+						<div class="form-group">
+							<label for="phoneInput" class="control-label col-md-2">Phone No.</label>
+							<div class="col-md-10">
+							<input type="text" name="phoneInput" id="contact_phone" class="form-control"/>
+							</div>
+						</div>
+						 <div id="alert_phone" class="alert alert-danger fade in" role="alert"  style="display:none;">
+									<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+									<span class="sr-only">Error:</span>
+									<strong>Warning!</strong>Enter a phone number
+								</div> 
+						<div class="form-group">
+							<label for="emailInput" class="control-label col-md-2">Email</label>
+								<div class="col-md-10">
+							<input  type="text" name="emailInput" class="form-control" id="contact_email" placeholder="abc@xyz.com" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-2">Category</label>
+							<div class="col-md-8">
+							<select class="form-control" name="category">
+								<option>General</option>
+								<option>Administration</option>
+								<option>Article Content</option>
+								<option>Technical</option>
+							</select>
+							</div>
+						</div>
+						<div class="form-group">
+						<label class="control-label col-md-2">Message</label>
+						<div class="col-md-8">
+							<textarea cols="40" rows="6" class="form-control" id="contact_message" name="messageInput" placeholder="Your Messsage"></textarea>
+							</div>
+							</div>
+							<div class="form-group">
+								<div class="col-md-10 col-md-offset-2">
+							<input type="submit" value="submit" id="contact-submit" class="btn btn-success" />
+				</div>
+				</div>
+				
+					</form>
+				</div>
+					
+			</div>
+			</div>
+           
+       
+        <script type="text/javascript" src="/ui/main.js"></script>
+		
+
+          <script type="text/javascript" src="/ui/js/bootstrap.js">
+        </script>
+    </body>
+</html>
