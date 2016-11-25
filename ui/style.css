@@ -72,7 +72,21 @@ h1{
 	margin-top:5px;
 	/*font-weight:bold;*/
 }
-
+.whatsapp{
+font-family: 'Romanesco', cursive;
+font-size: 27px;
+	padding-top:15px;
+	margin-top:5px;
+	font-weight:bold;
+}
+.code{
+		color:rgb(61, 158, 105);
+	 font-size: 20px;
+	   font-weight:bold;
+	font-family: 'IM Fell English', serif;
+	padding-top:15px;
+	align:center;
+}
 /*font-family: 'IM Fell English', serif;
 font-family: 'Sonsie One', cursive;
 font-family: 'Bilbo', cursive;

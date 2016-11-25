@@ -29,24 +29,52 @@
 </nav>
        
 			<div class="container">
-			<div class"col-md10 col-md-offset-4">
+			 <div class="col-md-12">
+			 <div class="whatsapp">
+			 <div class="col-md10 col-md-offset-4">
+		   Join Our WHATSAPP GROUP BY Entering the code
+		   </div>
+		   </div>
+		    <input type="text" id="chsl" placeholder="Your code" default="">
+			 <input type="submit" value="submit" id="submit_code" class="btn">
+			<div id="alert_code1" class="alert alert-danger fade in" role="alert"  style="display:none;">
+			 <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				<span class="sr-only">Error:</span>
+                  <strong>Warning!</strong>Enter a code
+				  </div>
+				  <div id="alert_code2" class="alert alert-danger fade in" role="alert"  style="display:none;">
+			 <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				<span class="sr-only">Error:</span>
+                  <strong>Warning!</strong>INVALID CODE
+				  </div>
+			<div id="show_link" class="code" style="display:none;">
+			<div class="col-md10 col-md-offset-4">
+			<a href="https://chat.whatsapp.com/HikhGcz9sruAxJLzln3OZo">Click here</a>
+			</div>
+			</div>
+		   </div>
+			<div class="col-md10 ">
               <br/>
               <hr/>
 			  <div class="comments">
-			  <div class=""col-md-6">
-              <input type="text" id="main" placeholder="Your Comments" default=""">
+			  <div class="col-md-6">
+              <input type="text" id="main" placeholder="Your Comments" default="">
               <input type="submit" value="submit" id="submit_btn" class="btn">
               <div id="alert" class="alert alert-danger fade in" role="alert"  style="display:none;">
 			   <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
 				<span class="sr-only">Error:</span>
                   <strong>Warning!</strong>Enter a comment
                 </div> 
-              </div>
-              <ul id='namelist'class="list-group">
+				<ul id='namelist'class="list-group">
                 
               </ul>
+              </div>
+              
               </div>  
            </div>
+		  
+		    
+		   
     </div>
        
         <script type="text/javascript" src="/ui/main.js">
